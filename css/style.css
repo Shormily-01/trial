@@ -1,0 +1,97 @@
+/* Common Css Start */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+ol,ul,
+p,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+/* //Common Css End */
+.container .box{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(3, 3, 3);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 15px 30px 60px 10px rgb(83, 82, 82);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.container .box .myimage img{
+    width: 150px;
+    width: 150px;
+    border-radius: 30% 0% 30% 0%;
+    border: 5px solid white;
+    position: relative;
+}
+.container .box .myimage:before{
+    content:'';
+    position: absolute;
+    top: -25%;
+    right: 72%;
+    height:240px;
+    width:220px;
+    background-color: white;
+    border-radius: 30% 0% 30% 0%;
+    box-shadow: 20px 0 0 rgb(133, 129, 129);
+    opacity: .7;
+}
+.container .box .content{
+    display: flex;
+}
+.container .box .content .name_post{
+    background-color: rgb(206, 228, 247);
+    color: black;
+    position: relative;
+    padding: 10px;
+    width: 235px;
+    height: 50px;
+    border-radius: 0 10% 10% 0;
+    margin-top: 25px;
+}
+.container .box .content .intro .name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.container .box .content .icon{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.container .box .content .icon a{
+    color: white;
+    font-size: 30px;
+    margin-right:5px;
+    transition: all linear .3s;
+}
+.container .box .content .icon a:hover{
+    color: rgb(206, 228, 247);
+}
+
+.container .box .contact{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.container .box .contact li{
+    display: block;
+    margin: 6px 0;
+    line-height: 20px;
+}
+.container .box .contact li i{
+    color: white;
+    margin-right: 8px;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 30px;
+}

@@ -1,0 +1,63 @@
+
+@media (max-width: 767px) {
+#header{
+width: 90%;
+}
+#header .header_item{
+padding-top: 6px;
+}
+#header .post_name{
+   padding: 5px 0;
+   text-align: center;
+}
+#header .post_name h6{
+   font-size: 11px;
+   margin-bottom: 5px;
+}
+#header .post_name h4{
+   font-size: 17px;
+}
+#header .items h5{
+   font-size: 14px;
+   padding: 2px 5px;
+}
+#header .company_name{
+   justify-content: center;
+   margin-top: 0;
+   margin-bottom: 8px;
+}
+#header .intro{
+   margin-top: 5px;
+   text-align: center;
+}
+#header .intro .picture img{
+   width: 90px;
+   height: 90px;
+   margin-left:0;
+}
+#header .icon ul{
+   margin: 5px 0;
+   margin-left: 0;
+}
+#header .intro .contact_items{
+   margin-top: 5px;
+   font-size: 12px;
+}
+#header .intro .contact_items ul li{
+   text-align: center;
+}
+#header .intro .contact_icon ul li{
+   display: inline;
+}
+#header .intro .contact_icon ul li a i{
+   height: 25px;
+   width: 30px;
+   line-height: 25px;
+   margin-right: 10px;
+}
+#header .intro .quote p{
+   margin-top: 5px;
+   margin-left: 0;
+   text-align: center;
+}
+}
